@@ -7,12 +7,16 @@
   margin: auto;
 }
 
-.main_content {
-  background-color: #ffffff;
+.bracketsInner {
+  padding: 0px 4px;
+  gap: 0px 8px;
+  display: flex;
+  flex-direction: row;
 }
 
 .sidebar {
   background-color: #1e2939;
+  color: #ffffff;
   padding-top: 40px;
   width: 370px;
 }
@@ -178,8 +182,8 @@
 }
 
 .brackets {
-  font-family: "Montserrat";
-  font-style: normal;
+  display: flex;
+  flex-direction: row;
   font-weight: 700;
   font-size: 14px;
   line-height: 24px;

@@ -7,5 +7,7 @@ interface BracketsProps {
 }
 
 export const Brackets: FC<BracketsProps> = ({ children }) => (
-  <div className="brackets">[{children}]</div>
+  <div className={s.brackets}>
+    [<div className={s.bracketsInner}>{children}</div>]
+  </div>
 );

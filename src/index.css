@@ -57,3 +57,13 @@ a {
   text-decoration: none;
   color: #55aaff;
 }
+
+li {
+  list-style: decimal;
+  display: flex;
+  flex-direction: row;
+}
+
+li > * {
+  margin: 0px 4px;
+}

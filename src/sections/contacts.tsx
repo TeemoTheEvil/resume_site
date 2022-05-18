@@ -2,7 +2,7 @@ import React, { FC } from "react";
 
 import { ContentBlock } from "../components/content-block";
 
-export const About: FC = () => (
+export const Contacts: FC = () => (
   <ContentBlock>
     <h2>Junior DevOps</h2>
     <h1>Vitalii Kondrenko</h1>

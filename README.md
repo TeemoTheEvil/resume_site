@@ -1,3 +1,17 @@
+Why have I created readme file in such simple project... Well, simply cause...
+![image](https://c.tenor.com/qs_T3lo3QIcAAAAC/its-the-law-marion-moseby.gif)
+
+To-do list:
+[x] Create frontend
+[ ] Create an AWS Identity and Access Management (IAM) profile role that grants access to Amazon S3.
+[ ] Attach the IAM instance profile to the instance.
+[ ] Validate permissions on your S3 bucket.
+[ ] Validate network connectivity from the EC2 instance to Amazon S3.
+[ ] Validate access to S3 buckets.
+[ ] Relocate static files of resume to S3
+[ ] Deploy resume on my own host.
+[ ] To be continued...
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

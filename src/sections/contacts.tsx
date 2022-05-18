@@ -1,17 +1,53 @@
 import React, { FC } from "react";
+import { SidebarBlocks } from "../components/sidebar-blocks";
 
-import { ContentBlock } from "../components/content-block";
+import s from "../App.module.css";
 
 export const Contacts: FC = () => (
-  <ContentBlock>
-    <h2>Junior DevOps</h2>
-    <h1>Vitalii Kondrenko</h1>
-    <p>
-      {`For a short period of my life, I've managed to try myself in several major
-      areas of IT and, I think, have finally found a direction that appealed to
-      me, and understood how to move on to achieve what I want. My current goal
-      is to find position where I can work with DevOps methodics and instruments
-      to upgrade my theoretical and practical knowledges within the area.`}
-    </p>
-  </ContentBlock>
+  <SidebarBlocks>
+    <h3>Contacts</h3>
+    <div>
+      <p>
+        <strong>C: </strong>
+        <a
+          target={"_blank"}
+          className={s.link}
+          rel="noreferrer noopener"
+          href="tel:+380983694370"
+        >
+          +380983694370
+        </a>
+      </p>
+      <p>
+        <strong>E: </strong>
+        <a
+          target={"_blank"}
+          className={s.link}
+          rel="noreferrer noopener"
+          href="mailto:vitaliy.kondrenko@gmail.com"
+        >
+          vitaliy.kondrenko@gmail.com
+        </a>
+      </p>
+      <p>
+        <strong>SM:</strong>
+        <a
+          target={"_blank"}
+          className={s.link}
+          rel="noreferrer noopener"
+          href="https://www.linkedin.com/in/vitalii-kondrenko-436047181/"
+        >
+          LinkedIn,
+        </a>
+        <a
+          target={"_blank"}
+          className={s.link}
+          rel="noreferrer noopener"
+          href="https://t.me/True_Teemo"
+        >
+          Telegram
+        </a>
+      </p>
+    </div>
+  </SidebarBlocks>
 );

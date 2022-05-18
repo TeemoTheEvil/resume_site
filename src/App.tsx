@@ -9,12 +9,16 @@ import { SoftSkills } from "./sections/soft-skills";
 import { TechSkills } from "./sections/tech-skills";
 
 import photo from "./assets/sample.jpg";
+import { Experience } from "./sections/experience/experience";
+import { Education } from "./sections/education";
 
 const App: FC = () => (
   <div className={s.main}>
     <main>
       <About />
       <Projects />
+      <Experience />
+      <Education />
     </main>
     <aside className={s.sidebar}>
       <img width="370" src={photo} alt="user_main" />

@@ -47,6 +47,12 @@ h3 {
   line-height: 27px;
 }
 
+h4 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+}
+
 p {
   font-weight: 400;
   font-size: 14px;
@@ -58,12 +64,40 @@ a {
   color: #55aaff;
 }
 
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
 li {
   list-style: decimal;
   display: flex;
   flex-direction: row;
+  color: #1e2939;
+  align-items: center;
+  font-size: 16px;
 }
 
 li > * {
   margin: 0px 4px;
+}
+
+.circle {
+  margin-right: 8px;
+  width: 6px;
+  height: 6px;
+  border-radius: 6px;
+}
+
+.circle.blackBg {
+  background-color: black;
+}
+
+.orangeBg {
+  background-color: rgb(231, 132, 12);
+}
+
+.orange {
+  color: rgb(231, 132, 12);
 }

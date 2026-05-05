@@ -9,10 +9,7 @@ const data = [
   "Windows administration",
   "Network administration",
   "Git",
-  "Virtualization",
-  "Docker",
-  "AWS",
-  "K8s",
+  "Virtualization"
 ];
 
 export const TechSkills: FC = () => (

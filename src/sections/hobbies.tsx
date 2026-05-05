@@ -8,7 +8,6 @@ const data = [
   "Gaming",
   "Cooking",
   "Reading",
-  "Learning new technologies for current goal",
   "Watching movies and series",
   "Swimming",
 ];
